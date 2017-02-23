@@ -10,7 +10,7 @@ Everything works exactly the same in terms of gameplay and presentation, as near
 
 ## Technical Details
 
-cl-tcod is in the process of being updated to fix some bugs with the latest version of libtcod. Details here and on the blog posts will discuss the changes necessary if an updated version of cl-tcod is not on the official repository or mirrored on GitHub.
+cl-tcod is in the process of being updated to fix some bugs with the latest version of libtcod. For now there is a working fork available on Github as [cl-tcod](https://github.com/podiki/cl-tcod).
 
 This code has only been tested with the current versions of libtcod (1.6.2), SBCL (1.3.12), and SDL (2.0.5) on x86_64 Arch Linux.
 
