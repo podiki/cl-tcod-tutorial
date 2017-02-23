@@ -12,7 +12,18 @@ Everything works exactly the same in terms of gameplay and presentation, as near
 
 cl-tcod is in the process of being updated to fix some bugs with the latest version of libtcod. For now there is a working fork available on Github as [cl-tcod](https://github.com/podiki/cl-tcod).
 
-This code has only been tested with the current versions of libtcod (1.6.2), SBCL (1.3.12), and SDL (2.0.5) on x86_64 Arch Linux.
+This code has only been tested with the current versions of libtcod (1.6.2), SBCL (1.3.12), and SDL (2.0.5) on x86-64 Arch Linux.
+
+### Basic requirements
+If current versions are prepackaged for your OS (downloaded binaries, `apt-get`, `pacman`, etc.) that is preferred, otherwise build from source.
+
+    * Common Lisp (e.g. [SBCL](http://www.sbcl.org/))
+    * [quicklisp](https://www.quicklisp.org)
+    * [libtcod](https://bitbucket.org/libtcod/libtcod) (and its requirements, namely SDL2)
+    * cl-tcod (to quickload it, clone it to `local-projects`; see the [FAQ](https://www.quicklisp.org/beta/faq.html))
+    * [GNU Emacs](https://www.gnu.org/software/emacs/) with [SLIME](https://common-lisp.net/project/slime/) (not required, but highly recommended)
+    
+Then all one needs to do is open one of the `tutorial-part##.lisp` files in Emacs and load it (`M-x slime-load-file` or `C-c C-l`) with SLIME running.
 
 ## Status
 
