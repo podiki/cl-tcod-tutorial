@@ -17,11 +17,11 @@ This code has only been tested with the current versions of libtcod (1.6.2), SBC
 ### Basic requirements
 If current versions are prepackaged for your OS (downloaded binaries, `apt-get`, `pacman`, etc.) that is preferred, otherwise build from source.
 
-    * Common Lisp (e.g. [SBCL](http://www.sbcl.org/))
-    * [quicklisp](https://www.quicklisp.org)
-    * [libtcod](https://bitbucket.org/libtcod/libtcod) (and its requirements, namely SDL2)
-    * cl-tcod (to quickload it, clone it to `local-projects`; see the [FAQ](https://www.quicklisp.org/beta/faq.html))
-    * [GNU Emacs](https://www.gnu.org/software/emacs/) with [SLIME](https://common-lisp.net/project/slime/) (not required, but highly recommended)
+* Common Lisp (e.g. [SBCL](http://www.sbcl.org/))
+* [quicklisp](https://www.quicklisp.org)
+* [libtcod](https://bitbucket.org/libtcod/libtcod) (and its requirements, namely SDL2)
+* cl-tcod (to quickload it, clone it to `local-projects`; see the [FAQ](https://www.quicklisp.org/beta/faq.html))
+* [GNU Emacs](https://www.gnu.org/software/emacs/) with [SLIME](https://common-lisp.net/project/slime/) (not required, but highly recommended)
     
 Then all one needs to do is open one of the `tutorial-part##.lisp` files in Emacs and load it (`M-x slime-load-file` or `C-c C-l`) with SLIME running.
 
