@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a port of the Python code from the ["Complete Roguelike Tutorial, using python+libtcod"](http://www.roguebasin.com/index.php?title=Complete_Roguelike_Tutorial,_using_python%2Blibtcod) into Common Lisp using [cl-tcod](https://bitbucket.org/eeeickythump/cl-tcod). It uses [libtcod](https://bitbucket.org/libtcod/libtcod) (a.k.a. "The Doryen Library") through the Common Foreign Function Interface, [CFFI](https://common-lisp.net/project/cffi/). Commentary on writing this tutorial in lisp will be found on my [blog](https://9bladed.com).
+This is a port of the Python code from the ["Complete Roguelike Tutorial, using python+libtcod"](http://www.roguebasin.com/index.php?title=Complete_Roguelike_Tutorial,_using_python%2Blibtcod) into Common Lisp using [cl-tcod](https://bitbucket.org/eeeickythump/cl-tcod) (the official version needs to be updated though, see below). It uses [libtcod](https://bitbucket.org/libtcod/libtcod) (a.k.a. "The Doryen Library") through the Common Foreign Function Interface, [CFFI](https://common-lisp.net/project/cffi/). Commentary on writing this tutorial in lisp will be found on my [blog](https://9bladed.com) in the near future, and linked here.
 
 The code is basically a straight "translation" from Python to Common Lisp, and is not necessarily "lispy" in it's current form. This was done on purpose to make it easy to refer to the original tutorial, and to reduce the chance of bugs in making sure this works as a proof of concept of a roguelike in lisp.
 
